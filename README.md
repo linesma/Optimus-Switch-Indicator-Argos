@@ -12,8 +12,7 @@ Thank you to the authors of both programs.
 #### Requirements
 - [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome Shell extension.
 - Optimus-Switch-GDM located here: https://github.com/dglt1/optimus-switch-gdm
-- one of the following:
-    - [pkroot](https://github.com/cyberalex4life/pkroot) - minimum already provided in this repository
+- [pkroot](https://github.com/cyberalex4life/pkroot) - minimum already provided in this repository
 
 #### Installation
 Install [Optimus-Switch-GDM](https://github.com/dglt1/optimus-switch-gdm)

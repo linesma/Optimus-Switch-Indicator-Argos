@@ -16,7 +16,7 @@ Thank you to the authors of both programs.
     - [pkroot](https://github.com/cyberalex4life/pkroot) - minimum already provided in this repository
 
 #### Installation
-Install [Optimus-Switch-GDM] (https://github.com/dglt1/optimus-switch-gdm)
+Install [Optimus-Switch-GDM](https://github.com/dglt1/optimus-switch-gdm)
 
 Install [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome-Shell extension.
 

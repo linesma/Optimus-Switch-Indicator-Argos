@@ -1,7 +1,7 @@
 # Optimus-Switch-Indicator-Argos-Manjaro
 Indicator for Optimus Switch on Manjaro using Argos API
 
-[Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher.jpg)
+![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher.jpg)
 
 This is a fork of argos-indicator-nvidia-prime by cyberalex4life located here: https://github.com/cyberalex4life/argos-indicator-nvidia-prime
 

@@ -31,8 +31,8 @@ git clone https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro.git
 cd Optimus-Switch-Indicator-Argos-Manjaro
 # copy icons
 cp -v icons/* ~/.local/share/icons/
-# copy 'nvidia-prime.r.3s.sh' to 'argos' folder
-cp -v nvidia-prime.r.3s.sh ~/.config/argos/
+# copy 'optimus-switcher.sh' to 'argos' folder
+cp -v optimus-switcher.sh ~/.config/argos/
 # copy polkit policy in place
 sudo cp org.freedesktop.policykit.pkexec.prime-select.policy /usr/share/polkit-1/actions/
 # copy pkroot to '/usr/local/bin' and make sure it is executable

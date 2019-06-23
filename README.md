@@ -46,7 +46,7 @@ rm ~/.local/share/icons-to-delete/{nvidia-active-symbolic.svg,nvidia-inactive-sy
 # remove policy
 sudo rm org.freedesktop.policykit.pkexec.prime-select.policy /usr/share/polkit-1/actions/
 # remove argos extension script
-rm ~/.config/argos/nvidia-prime.r3s.sh
+rm ~/.config/argos/optimus-switcher.sh
 # remove pkroot script
 sudo rm /usr/local/bin/pkroot
 ```

@@ -7,8 +7,6 @@ It has been updated to switch between the nVidia and Intel graphics cards on Opt
 
 Thank you to the authors of both programs.
 
-![NVidia Prime Argos Indicator](https://github.com/cyberalex4life/argos-indicator-nvidia-prime/blob/master/screenshots/argos-nvidia-prime1.jpg)                                       ![NVidia Prime Argos Indicator](https://github.com/cyberalex4life/argos-indicator-nvidia-prime/blob/master/screenshots/argos-nvidia-prime2.jpg)
-
 #### Requirements
 - [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome Shell extension.
 - Optimus-Switch-GDM located here https://github.com/dglt1/optimus-switch-gdm

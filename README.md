@@ -1,6 +1,8 @@
 # Optimus-Switch-Indicator-Argos-Manjaro
 Indicator for Optimus Switch on Manjaro using Argos API
 
+![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher.jpg)
+
 This is a fork of argos-indicator-nvidia-prime by cyberalex4life located here: https://github.com/cyberalex4life/argos-indicator-nvidia-prime
 
 It has been updated to switch between the nVidia and Intel graphics cards on Optimus laptops running Manjaro by using the Optimus-Switch program by dglt1 located here: https://github.com/dglt1/optimus-switch-gdm

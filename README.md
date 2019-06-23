@@ -11,11 +11,9 @@ Thank you to the authors of both programs.
 
 #### Requirements
 - [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome Shell extension.
-- nvidia-prime: `sudo apt install nvidia-prime`
+- Optimus-Switch-GDM located here https://github.com/dglt1/optimus-switch-gdm
 - one of the following:
     - [pkroot](https://github.com/cyberalex4life/pkroot) - minimum already provided in this repository
-    - gksu: `sudo apt install gksu`
-    - gnomesu - OpenSuSE only
 
 #### Installation
 Install [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome-Shell extension.

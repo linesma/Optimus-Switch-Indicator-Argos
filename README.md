@@ -1,7 +1,7 @@
 # Optimus-Switch-Indicator-Argos-Manjaro
 Indicator for Optimus Switch on Manjaro using Argos API
 
-![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher.jpg)
+[Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher.jpg)
 
 This is a fork of argos-indicator-nvidia-prime by cyberalex4life located here: https://github.com/cyberalex4life/argos-indicator-nvidia-prime
 
@@ -11,7 +11,7 @@ Thank you to the authors of both programs.
 
 #### Requirements
 - [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome Shell extension.
-- Optimus-Switch-GDM located here https://github.com/dglt1/optimus-switch-gdm
+- Optimus-Switch-GDM located here: https://github.com/dglt1/optimus-switch-gdm
 - one of the following:
     - [pkroot](https://github.com/cyberalex4life/pkroot) - minimum already provided in this repository
 

@@ -31,6 +31,8 @@ git clone https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro.git
 cd Optimus-Switch-Indicator-Argos-Manjaro
 # copy icons
 cp -v icons/* ~/.local/share/icons/
+# edit 'optimus-switcher.sh to match the results of `nvidia-smi -L`
+nano optimus-switcher
 # copy 'optimus-switcher.sh' to 'argos' folder
 cp -v optimus-switcher.sh ~/.config/argos/
 # copy polkit policy in place

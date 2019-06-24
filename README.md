@@ -31,8 +31,14 @@ git clone https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro.git
 cd Optimus-Switch-Indicator-Argos-Manjaro
 # copy icons
 cp -v icons/* ~/.local/share/icons/
-# edit 'optimus-switcher.sh to match the results of `nvidia-smi -L`
-nano optimus-switcher
+#Get the output of `nvidia-smi -L`
+`nvidia-smi -L`
+Copy the result to your favorite text editor.
+# edit 'optimus-switcher.sh' to match the results of `nvidia-smi -L`
+nano optimus-switcher.sh
+Look for the line `if [ "$QUERY" == 'GPU 0: GeForce GTX 1050 (UUID: GPU-15a83262-39d2-62ee-e0bf-04fb8ae648b0)' ]; then`
+Change 'GPU 0: GeForce GTX 1050 (UUID: GPU-15a83262-39d2-62ee-e0bf-04fb8ae648b0)' to match the output of `nvidia-smi-L`
+ctrl+x to save and exit the file.
 # copy 'optimus-switcher.sh' to 'argos' folder
 cp -v optimus-switcher.sh ~/.config/argos/
 # copy polkit policy in place

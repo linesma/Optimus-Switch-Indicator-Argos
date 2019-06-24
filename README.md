@@ -20,6 +20,8 @@ Install [Optimus-Switch-GDM](https://github.com/dglt1/optimus-switch-gdm)
 
 Install [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome-Shell extension.
 
+Ensure that your system is using the nVidia GPU or you will not get the information needed for later in the install.
+
 Create directory `~/.local/share/icons` if it does not exist:
 ```
 ! [ -d "~/.local/share/icons" ] && mkdir --parents ~/.local/share/icons || trueg

@@ -43,6 +43,10 @@ Change 'GPU 0: GeForce GTX 1050 (UUID: GPU-15a83262-39d2-62ee-e0bf-04fb8ae648b0)
 ctrl+x to save and exit the file.
 # copy 'optimus-switcher.sh' to 'argos' folder
 cp -v optimus-switcher.sh ~/.config/argos/
+# backup the default Argos configuration
+cp ~/.config/argos/argos.sh ~/Documents
+# delete the default Argos configuration
+rm ~/.config/argos/argos.sh
 # copy polkit policy in place
 sudo cp org.freedesktop.policykit.pkexec.prime-select.policy /usr/share/polkit-1/actions/
 # copy pkroot to '/usr/local/bin' and make sure it is executable

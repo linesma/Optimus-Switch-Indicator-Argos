@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 run_as_root="pkroot -d" # gksu; pkroot; gnomesu -c;
-notify_switch="notify-send -h int:transient:2 \\\"dialog-information-symbolic\\\" \\\"NVidia Prime Indicator\\\" \\\"Switching graphics. Please reboot to finalize process! \\\" ; "
-notify_switch_and_reboot="notify-send -h int:transient:2 -i \\\"dialog-information-symbolic\\\" \\\"NVidia Prime Indicator\\\" \\\"Switching graphics. System will reboot soon... \\\" ; "
-notify_reboot="notify-send -h int:transient:2 -i \\\"dialog-information-symbolic\\\"  \\\"NVidia Prime Indicator\\\" \\\"System will reboot! \\\" ; "
+notify_switch="notify-send -h int:transient:2 \\\"dialog-information-symbolic\\\" \\\"Optimus-Switch\\\" \\\"Switching graphics. Please reboot to finalize process! \\\" ; "
+notify_switch_and_reboot="notify-send -h int:transient:2 -i \\\"dialog-information-symbolic\\\" \\\"Optimus-Switch\\\" \\\"Switching graphics. System will reboot soon... \\\" ; "
+notify_reboot="notify-send -h int:transient:2 -i \\\"dialog-information-symbolic\\\"  \\\"Optimus-Switch\\\" \\\"System will reboot! \\\" ; "
 
 activate_intel="\"\
 	$notify_switch \

@@ -13,14 +13,11 @@ Thank you to the authors of both programs.
 - [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome Shell extension.
 - Optimus-Switch-GDM located here: https://github.com/dglt1/optimus-switch-gdm
 - [pkroot](https://github.com/cyberalex4life/pkroot) - minimum already provided in this repository
-- Output of `nvidia-smi -L` This will allow for the indication of which graphics card is in use.
 
 #### Installation
 Install [Optimus-Switch-GDM](https://github.com/dglt1/optimus-switch-gdm)
 
 Install [Argos](https://extensions.gnome.org/extension/1176/argos/) Gnome-Shell extension.
-
-Ensure that your system is using the nVidia GPU or you will not get the information needed for later in the install.
 
 Create directory `~/.local/share/icons` if it does not exist:
 ```
@@ -33,14 +30,6 @@ git clone https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro.git
 cd Optimus-Switch-Indicator-Argos-Manjaro
 # copy icons
 cp -v icons/* ~/.local/share/icons/
-#Get the output of `nvidia-smi -L`
-`nvidia-smi -L`
-Copy the result to your favorite text editor.
-# edit 'optimus-switcher.sh' to match the results of `nvidia-smi -L`
-nano optimus-switcher.sh
-Look for the line `if [ "$QUERY" == 'GPU 0: GeForce GTX 1050 (UUID: GPU-15a83262-39d2-62ee-e0bf-04fb8ae648b0)' ]; then`
-Change 'GPU 0: GeForce GTX 1050 (UUID: GPU-15a83262-39d2-62ee-e0bf-04fb8ae648b0)' to match the output of `nvidia-smi-L`
-ctrl+x to save and exit the file.
 # copy 'optimus-switcher.sh' to 'argos' folder
 cp -v optimus-switcher.sh ~/.config/argos/
 # backup the default Argos configuration

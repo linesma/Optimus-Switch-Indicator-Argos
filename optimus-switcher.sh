@@ -41,9 +41,8 @@ nvidia_active_icon="nvidia-active-symbolic"
 nvidia_inactive_icon="prime-indicator-intel"
 reboot_icon="system-restart"
 
-
-QUERY=$(nvidia-smi -L)
-if [ "$QUERY" == 'GPU 0: GeForce GTX 1050 (UUID: GPU-15a83262-39d2-62ee-e0bf-04fb8ae648b0)' ]; then
+QUERY=$(glxinfo -B | grep "OpenGL vendor string" | grep -iwoE "intel|nvidia")
+if [ "$QUERY" == 'NVIDIA' ]; then
     nvidia_state_icon=$nvidia_active_icon
     TEMP=$(nvidia-smi -q -d TEMPERATURE | grep 'GPU Current Temp' | awk '{print $5}')
     panel_string="$TEMP\xe2\x84\x83 | "

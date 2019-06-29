@@ -42,7 +42,7 @@ nvidia_inactive_icon="prime-indicator-intel"
 reboot_icon="system-restart"
 
 QUERY=$(glxinfo -B | grep "OpenGL vendor string" | grep -iwoE "intel|nvidia")
-if [ "$QUERY" == 'NVIDIA' ]; then
+if [ "${QUERY,,}" = "nvidia" ]; then
     nvidia_state_icon=$nvidia_active_icon
     TEMP=$(nvidia-smi -q -d TEMPERATURE | grep 'GPU Current Temp' | awk '{print $5}')
     panel_string="$TEMP\xe2\x84\x83 | "

@@ -28,16 +28,25 @@ Then:
 ```
 git clone https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro.git
 cd Optimus-Switch-Indicator-Argos-Manjaro
+
 # copy icons
 cp -v icons/* ~/.local/share/icons/
+
 # copy 'optimus-switcher.sh' to 'argos' folder
 cp -v optimus-switcher.sh ~/.config/argos/
+
 # backup the default Argos configuration
 cp ~/.config/argos/argos.sh ~/Documents
+
 # delete the default Argos configuration
 rm ~/.config/argos/argos.sh
+
+# change the permissions of optimus-switcher.sh so Argos can read it
+sudo chmod +777 ~/.config/argos/optimus-switcher.sh
+
 # copy polkit policy in place
 sudo cp org.freedesktop.policykit.pkexec.prime-select.policy /usr/share/polkit-1/actions/
+
 # copy pkroot to '/usr/local/bin' and make sure it is executable
 sudo cp pkroot /usr/local/bin
 sudo chmod a+x /usr/local/bin/pkroot

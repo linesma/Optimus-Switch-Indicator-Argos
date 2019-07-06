@@ -55,12 +55,16 @@ sudo chmod a+x /usr/local/bin/pkroot
 ```
 # remove icons
 rm ~/.local/share/icons-to-delete/{nvidia-active-symbolic.svg,nvidia-inactive-symbolic.svg,prime-indicator-intel.svg,prime-indicator-intel-symbolic.svg,prime-indicator-nvidia.svg}
+
 # remove policy
 sudo rm org.freedesktop.policykit.pkexec.prime-select.policy /usr/share/polkit-1/actions/
+
 # remove argos extension script
 rm ~/.config/argos/optimus-switcher.sh
+
 # remove pkroot script
 sudo rm /usr/local/bin/pkroot
+
 ```
 Then uninstall Argos if you don't need it anymore.
 

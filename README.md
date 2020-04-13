@@ -1,4 +1,7 @@
 # Optimus-Switch-Indicator-Argos-Manjaro
+
+This is no longer maintained. Please use manjaroptimus-appindicator instead. It can be found here: https://github.com/linesma/manjaroptimus-appindicator
+
 Indicator for Optimus Switch on Manjaro using Argos API
 
 ![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher-intel.jpg)     ![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher-nvidia.jpg)

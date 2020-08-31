@@ -2,7 +2,8 @@
 
 Indicator for Optimus Switch for Arch based distros using Argos API on the Gnome Desktop.
 
-![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher-intel.jpg)     ![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher-nvidia.jpg)
+![Optimus-Switch-Indicator-Argos](https://github.com/linesma/Optimus-Switch-Indicator-Argos/blob/master/screenshots/optimus-switcher-intel.jpg)
+![Optimus-Switch-Indicator-Argos](https://github.com/linesma/Optimus-Switch-Indicator-Argos/blob/master/screenshots/optimus-switcher-nvidia.jpg)
 
 This is a fork of argos-indicator-nvidia-prime by cyberalex4life located here: https://github.com/cyberalex4life/argos-indicator-nvidia-prime
 

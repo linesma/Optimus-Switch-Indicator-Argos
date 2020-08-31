@@ -28,8 +28,8 @@ Create directory `~/.local/share/icons` if it does not exist:
 
 Then:
 ```
-git clone https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro.git
-cd Optimus-Switch-Indicator-Argos-Manjaro
+git clone https://github.com/linesma/Optimus-Switch-Indicator-Argos.git
+cd Optimus-Switch-Indicator-Argos
 
 # copy icons
 cp -v icons/* ~/.local/share/icons/

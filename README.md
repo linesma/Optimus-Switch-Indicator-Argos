@@ -1,8 +1,6 @@
-# Optimus-Switch-Indicator-Argos-Manjaro
+# Optimus-Switch-Indicator-Argos
 
-This is no longer maintained. Please use manjaroptimus-appindicator instead. It can be found here: https://github.com/linesma/manjaroptimus-appindicator
-
-Indicator for Optimus Switch on Manjaro using Argos API
+Indicator for Optimus Switch for Arch based distros using Argos API on the Gnome Desktop.
 
 ![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher-intel.jpg)     ![Optimus-Switch-Indicator-Argos-Manjaro](https://github.com/linesma/Optimus-Switch-Indicator-Argos-Manjaro/blob/master/screenshots/optimus-switcher-nvidia.jpg)
 

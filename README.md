@@ -1,6 +1,6 @@
 # Optimus-Switch-Indicator-Argos
 
-Indicator for Optimus Switch for Arch based distros using Argos API on the Gnome Desktop.
+Indicator for Optimus Switch for Arch based distros using the Argos API on the Gnome Desktop.
 
 ![Optimus-Switch-Indicator-Argos](https://github.com/linesma/Optimus-Switch-Indicator-Argos/blob/master/screenshots/optimus-switcher-intel.jpg)
 ![Optimus-Switch-Indicator-Argos](https://github.com/linesma/Optimus-Switch-Indicator-Argos/blob/master/screenshots/optimus-switcher-nvidia.jpg)
